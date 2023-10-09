@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Наша группа</title>
+        <body>
+            <h1>Фрукты</h1>
+            <img src="фрукты.jpg.webp"/>
+            <ul>
+                <li><strong>банан:</strong> желтый</li>
+                <li><strong>лимон:</strong> желтый</li>
+                <li><strong>яблоко:</strong> красный</li>
+            </ul>
+            <table>
+            <tr>
+            <th>цвет</th>
+            <th>вкус</th>
+            <th>стоимость</th>
+            </tr>
+            <tr>
+            <td>желтый</td>
+            <td>сладкий</td>
+            <td>21000сум</td>
+            </tr>
+            </table>
+            <hr color="green"/>
+            <h1>овощи</h1>
+            <img src="овощи.jpg"/>
+            <ul>
+            <li><strong>огурец:</strong> зеленый</li>
+            <li><strong>помидор:</strong> красный</li>
+            </ul>
+            <hr color="red"/>
+            <h3>Связаться с нами</h3>
+            <form>
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="введите свое имя"/><br/>
+            <label for="email"> Ваш email </label>
+            <input type="text id email" placeholder="введите свой email"/><br/>
+            <label for="textarea"> Сообщение:</label>
+            <textarea id="textarea"></textarea><br/>
+            <button type="submit">Отправить</button>
+            <button type="reset"> Сбросить</button>
+            </form>
+        </body>
+    </head>
+</html>
